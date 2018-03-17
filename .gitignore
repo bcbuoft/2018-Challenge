@@ -19,3 +19,9 @@
 .Rproj.user/shared/notebooks/patch-chunk-names
 *.Rproj
 test.svg
+.idea/2018-Challenge.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+setUpCh.pyc
