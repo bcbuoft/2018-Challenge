@@ -69,29 +69,44 @@ def circoGeneDraw(chDF, chEdges, fName):
     dwg = svgwrite.Drawing(filename=fName)
 
     #add title
-    dwg.add(dwg.text("CHR 20", insert = CENTER, fill="black", text_anchor="middle"))
+    dwg.add(dwg.text("CHR 20", insert=CENTER, fill="black", text_anchor="middle"))
 
     #draw chromosome line
+    # dwg.add(dwg.circle(CENTER, RADIUS, fill_opacity=0.0, stroke="black", stroke_width=1))
+
     dwg.add(dwg.circle(CENTER, RADIUS, fill_opacity=0.0, stroke="black", stroke_width=1))
+    from_ = "0 " + str(CENTER[0]) + " " + str(CENTER[1])
+    to_ = "360 " + str(CENTER[0]) + " " + str(CENTER[1])
+    # circle.add(
+    #     dwg.animateTransform("rotate", "transform", id="circle", from_=from_, to=to_, dur="10s",
+    #                            begin="0s", repeatCount="indefinite"))
 
     #draw edge for each shared GOA
     GOAedges = dwg.add(dwg.g(id="GOAedges", stroke_width=0.05))
+    GOAedges.add(
+        dwg.animateTransform("rotate", "transform", id="edges", from_=from_, to=to_, dur="36s",
+                             begin="0s", repeatCount="indefinite"))
 
     for e in chEdges:
         eStart = e[0]
         eEnd = e[1]
         eCol = e[2]
-        GOAedges.add(dwg.line(eStart, eEnd, stroke=eCol))
+        line = GOAedges.add(dwg.line(eStart, eEnd, stroke=eCol))
+        # begin = "0s"
+        # line.add(
+        #     dwg.animateColor("fill", fill="remove", id="fills", begin="0s", end="2s"))
 
     #draw arcs for each gene
     geneArcs = dwg.add(dwg.g(id="geneArcs", fill="white", stroke_width=5))
-
+    geneArcs.add(
+        dwg.animateTransform("rotate", "transform", id="arcs", from_=from_, to=to_, dur="36s",
+                             begin="0s", repeatCount="indefinite"))
     for g in chDF.index:
         #look up the gene arc start and end points and plug into drawing
         gStart = "M" + str(chDF.loc[g].arcStartX) + "," + str(chDF.loc[g].arcStartY)
         gArc = "A" + str(RADIUS) + "," + str(RADIUS)
         gEnd = str(chDF.loc[g].arcEndX) + "," + str(chDF.loc[g].arcEndY)
-        geneArcs.add(dwg.path(d = gStart +  gArc + " 0 0,1 " + gEnd, stroke=chDF.loc[g].colour))
+        geneArcs.add(dwg.path(d = gStart + gArc + " 0 0,1 " + gEnd, stroke=chDF.loc[g].colour))
 
     dwg.save()
 
