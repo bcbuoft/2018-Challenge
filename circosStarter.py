@@ -74,8 +74,8 @@ def circoGeneDraw(chDF, chEdges, fName):
     #draw chromosome line
     dwg.add(dwg.circle(CENTER, RADIUS, fill_opacity=0.0, stroke="black", stroke_width=1))
 
-    from_ = "360 " + str(CENTER[0]) + " " + str(CENTER[1])
-    to_ = "0 " + str(CENTER[0]) + " " + str(CENTER[1])
+    from_ = "0 " + str(CENTER[0]) + " " + str(CENTER[1])
+    to_ = "360 " + str(CENTER[0]) + " " + str(CENTER[1])
 
     #draw edge for each shared GOA
     # GOAedges = dwg.add(dwg.g(id="GOAedges", stroke_width=0.05))
@@ -103,8 +103,8 @@ def circoGeneDraw(chDF, chEdges, fName):
         gEnd = str(chDF.loc[g].arcEndX) + "," + str(chDF.loc[g].arcEndY)
         geneArcs.add(dwg.path(d=gStart + gArc + " 0 0,1 " + gEnd, stroke=chDF.loc[g].colour))
 
-        startAngle = (chDF.loc[g].start/CHROMLEN * 360)
-        endAngle = (chDF.loc[g].end/CHROMLEN * 360)
+        endAngle = abs(chDF.loc[g].start/CHROMLEN * 360 - 180)
+        startAngle = abs(chDF.loc[g].end/CHROMLEN * 360 - 180)
         path = [(100, 100), (100, 200), (200, 200), (200, 100)]
         # path = [(startAngle, startAngle), (startAngle, endAngle), (endAngle, endAngle), (endAngle, startAngle)]
         startTime = str(startAngle) + "s"
@@ -113,7 +113,7 @@ def circoGeneDraw(chDF, chEdges, fName):
         rectangle = dwg.add(dwg.polygon(path, id='polygon', opacity="0", stroke="black", fill=chDF.loc[g].colour))
         rectangle.add(
             dwg.animate(attributeName="opacity", id="fills", from_="1", to="0", begin=startTime, end=endTime,
-                        dur="360s", repeatCount="indefinite"))
+                        dur="360    s", repeatCount="indefinite"))
     dwg.save()
 
 
