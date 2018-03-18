@@ -1,4 +1,4 @@
-name	start	end	TAD
+sym    name	start	end	TAD
 NRSN2	neurensin 2	346782	359660	1
 TRIB3	tribbles pseudokinase 3	362835	397559	1
 RBCK1	RANBP2-type and C3HC4-type zinc finger containing 1	407498	430966	1

@@ -1,5 +1,6 @@
 import os
 import pandas as p
+from prepTADData import prepData
 
 # Read file obtained via custom download from ensembl biomart
 # Custom download:
@@ -13,24 +14,26 @@ import pandas as p
 #          GOSlim GOA Description
 #          HGNC symbol
 
-def prepData():
+def prepGeneData():
     #load the biomart data
-    rawFile = os.path.abspath("new_tad_positions.txt")
+    rawFile = os.path.abspath("genes_by_TAD.txt")
     rawData = p.read_table(rawFile, header=0)
 
-    rawData = rawData.drop("misc", axis=1)
-    rawData = rawData.drop("chr", axis=1)
+    tads = prepData()
+    # print(tads)
 
+    #remove duplicate rows
     rawData = rawData.drop_duplicates()
 
-    colfile = os.path.abspath("svgCols.txt")
-    cols = p.read_table(colfile, header=None)
+    rawData["circle_len"] = 0
 
-    #assign colours and place into ch20 dataframe
-    rawData["colour"] = cols[0:len(rawData.index)]
-    # rawData.to_csv("new_chr20_data.tsv", sep="\t")
-    # print(rawData)
+    for g in rawData.index:
+        tad_start = tads.iloc[rawData.loc[g].TAD - 1].start
+        rawData.loc[g, "start"] -= tad_start
+        rawData.loc[g, "end"] -= tad_start
+        rawData.loc[g, "circle_len"] = tads.iloc[rawData.loc[g].TAD].end - tad_start
+
     return rawData
 
 if __name__ == '__main__':
-    prepData()
+    prepGeneData()

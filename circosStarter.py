@@ -1,9 +1,13 @@
 import svgwrite
 from setUpCh import chSetUp
+from prepTADData import prepData
+from prepGeneData import prepGeneData
 from math import cos, sin, pi
 
-CENTER = (300,300)      #where to center our circos plot
+CENTER = (300, 300)      #where to center our circos plot
 RADIUS = 150            #size of circos plot
+SUBCENTER = (500, 205)
+SUBRADIUS = 150
 START = (0, RADIUS)     #for calculating gene arcs
 CHROMLEN = 64444167     #nts on chromosome 20
 
@@ -12,16 +16,6 @@ CHROMLEN = 64444167     #nts on chromosome 20
 #add edges between genes that share the same GOA
 
 def calcArcCoords(chDF):
-    #calculate where each gene reaches on circos graph
-
-    #each gene arc on the circular chromosome is some percentage of the total circle. Multiply this by 2pi to get
-    #the theta corresponding to this arc. From an arbitraty start point (globally specified) we can add theta and
-    #get the start, mid, and end points of the gene on the circle.
-
-    #each gene will move from START by a rotation of theta. Use the rotation matrix to find new coordinates
-    #(cos(theta)*START_x + sin(theta)*START_y, -sin(theta)*START_x+ cos(theta)*START_y)
-    #where theta is the angle from START to the arc in radians
-
     #find the coordinates of the start of the arc
     chDF["thetaStart"] = (chDF.start/CHROMLEN)*(2*pi)
     chDF["arcStartX"] = chDF.thetaStart.apply(cos) * START[0] - chDF.thetaStart.apply(sin) * START[1]
@@ -47,24 +41,24 @@ def calcArcCoords(chDF):
 
     return chDF
 
-def makeEdgeList(chDF):
-    #return a list of edges between genes that have the same GOA, and the colour the edge should be drawn with
+# def makeEdgeList(chDF):
+#     #return a list of edges between genes that have the same GOA, and the colour the edge should be drawn with
+#
+#     edgeList = []
+#
+#     for g in chDF.index:
+#         thisGOAid = chDF.loc[g].GOAid               #get the GOAid
+#         sharedGOA = chDF[chDF.GOAid == thisGOAid]   #get all other rows with same GOAid
+#         sharedGOA = sharedGOA.drop(g)               #remove self edges
+#         for f in sharedGOA.index:
+#             edgeList.append(((chDF.loc[g].arcMidX, chDF.loc[g].arcMidY),
+#                              (chDF.loc[f].arcMidX, chDF.loc[f].arcMidY),
+#                              chDF.loc[g].colour))
+#
+#     return edgeList
 
-    edgeList = []
 
-    for g in chDF.index:
-        thisGOAid = chDF.loc[g].GOAid               #get the GOAid
-        sharedGOA = chDF[chDF.GOAid == thisGOAid]   #get all other rows with same GOAid
-        sharedGOA = sharedGOA.drop(g)               #remove self edges
-        for f in sharedGOA.index:
-            edgeList.append(((chDF.loc[g].arcMidX, chDF.loc[g].arcMidY),
-                             (chDF.loc[f].arcMidX, chDF.loc[f].arcMidY),
-                             chDF.loc[g].colour))
-
-    return edgeList
-
-
-def circoGeneDraw(chDF, chEdges, fName):
+def circoGeneDraw(chDF, genesDF, fName):
 
     dwg = svgwrite.Drawing(filename=fName)
 
@@ -77,53 +71,63 @@ def circoGeneDraw(chDF, chEdges, fName):
     from_ = "0 " + str(CENTER[0]) + " " + str(CENTER[1])
     to_ = "360 " + str(CENTER[0]) + " " + str(CENTER[1])
 
-    #draw edge for each shared GOA
-    # GOAedges = dwg.add(dwg.g(id="GOAedges", stroke_width=0.05))
-    # GOAedges.add(
-    #     dwg.animateTransform("rotate", "transform", id="edges", from_=from_, to=to_, dur="36s",
-    #                          begin="0s", repeatCount="indefinite"))
-
-    # for e in chEdges:
-    #     eStart = e[0]
-    #     eEnd = e[1]
-    #     eCol = e[2]
-        # line = GOAedges.add(dwg.line(eStart, eEnd, stroke=eCol))
-        # line.add(dwg.animate(attributeName="opacity", id="fills", from_="1", to="0", dur="s",
-        #                      repeatCount="indefinite"))
-
-    #draw arcs for each gene
-    geneArcs = dwg.add(dwg.g(id="geneArcs", fill="white", stroke_width=5))
-    geneArcs.add(
+    #draw arcs for each tad
+    tadArcs = dwg.add(dwg.g(id="tadArcs", fill="white", stroke_width=5))
+    tadArcs.add(
         dwg.animateTransform("rotate", "transform", id="arcs", from_=from_, to=to_, dur="360s",
                              begin="0s", repeatCount="indefinite"))
     for g in chDF.index:
-        #look up the gene arc start and end points and plug into drawing
         gStart = "M" + str(chDF.loc[g].arcStartX) + "," + str(chDF.loc[g].arcStartY)
         gArc = "A" + str(RADIUS) + "," + str(RADIUS)
         gEnd = str(chDF.loc[g].arcEndX) + "," + str(chDF.loc[g].arcEndY)
-        geneArcs.add(dwg.path(d=gStart + gArc + " 0 0,1 " + gEnd, stroke=chDF.loc[g].colour))
+        tadArcs.add(dwg.path(d=gStart + gArc + " 0 0,1 " + gEnd, stroke=chDF.loc[g].colour))
 
-        endAngle = abs(chDF.loc[g].start/CHROMLEN * 360 - 180)
-        startAngle = abs(chDF.loc[g].end/CHROMLEN * 360 - 180)
+        start_angle = abs(chDF.loc[g].start/CHROMLEN * 360 - 180)
+        end_angle = abs(chDF.loc[g].end/CHROMLEN * 360 - 180)
+        # start_angle = min(angle_one, angle_two)
+        # end_angle = max(angle_one, angle_two)
+        start_time = str(start_angle) + "s"
+        end_time = str(end_angle) + "s"
+
         path = [(100, 100), (100, 200), (200, 200), (200, 100)]
-        # path = [(startAngle, startAngle), (startAngle, endAngle), (endAngle, endAngle), (endAngle, startAngle)]
-        startTime = str(startAngle) + "s"
-        endTime = str(endAngle) + "s"
-        print(startTime + " ," + endTime)
         rectangle = dwg.add(dwg.polygon(path, id='polygon', opacity="0", stroke="black", fill=chDF.loc[g].colour))
         rectangle.add(
-            dwg.animate(attributeName="opacity", id="fills", from_="1", to="0", begin=startTime, end=endTime,
-                        dur="360    s", repeatCount="indefinite"))
+            dwg.animate(attributeName="opacity", id="fills", from_="1", to="0", begin=start_time, end=end_time,
+                        dur="360s", repeatCount="indefinite"))
+
+
+        # sub_circle = \
+        # dwg.add(dwg.circle(SUBCENTER, SUBRADIUS, opacity=0, stroke="black", stroke_width=1,
+        #                                 fill=chDF.loc[g].colour))
+        # sub_circle.add(dwg.animate(attributeName="opacity", id="fills", from_="1", to="0",
+        #                                         begin=start_time, end=end_time, dur="360s", repeatCount="indefinite"))
+        #
+        # geneArcs = dwg.add(dwg.g(id="geneArcs", fill="white", stroke_width=5))
+        #
+        # genesDF = calcArcCoords(genesDF)
+        # sub_genes_df = genesDF[genesDF["TAD"] == g]
+        #
+        # for h in sub_genes_df.index:
+        #
+        #     # look up the gene arc start and end points and plug into drawing
+        #     hStart = "M" + str(sub_genes_df.loc[h].arcStartX) + "," + str(sub_genes_df.loc[h].arcStartY)
+        #     hArc = "A" + str(SUBRADIUS) + "," + str(SUBRADIUS)
+        #     hEnd = str(sub_genes_df.loc[h].arcEndX) + "," + str(sub_genes_df.loc[h].arcEndY)
+        #     geneArcs.add(dwg.path(d=hStart + hArc + " 0 0,1 " + hEnd, stroke=chDF.loc[g].colour))
+        #     geneArcs.add(dwg.animate(attributeName="opacity", id="fills", from_="1", to="0",
+        #                                begin=start_time, end=end_time, dur="36s", repeatCount="indefinite"))
     dwg.save()
 
 
 if __name__ == '__main__':
     print("setting up...")
     ch20 = chSetUp()
+    geneData = prepGeneData()
     print("set up complete\ncomputing gene arcs...")
+    ch20["circle_len"] = CHROMLEN
     ch20 = calcArcCoords(ch20)
-    print("gene arcs computed\ncomputing edges... (this may take a few seconds)")
-    ch20Edges = makeEdgeList(ch20)
+    # print("gene arcs computed\ncomputing edges... (this may take a few seconds)")
+    # ch20Edges = makeEdgeList(ch20)
     print("edges computed\nrendering svg... (this may take a few seconds)")
-    circoGeneDraw(ch20, ch20Edges, "circosDraw.svg")
+    circoGeneDraw(ch20, geneData, "circosDraw.svg")
 
