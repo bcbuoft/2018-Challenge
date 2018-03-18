@@ -1,0 +1,182 @@
+sym    name	start	end	TAD
+NRSN2	neurensin 2	346782	359660	1
+TRIB3	tribbles pseudokinase 3	362835	397559	1
+RBCK1	RANBP2-type and C3HC4-type zinc finger containing 1	407498	430966	1
+TCF15	transcription factor 15	603797	610398	2
+FAM110A	family with sequence similarity 110 member A	833715	857463	3
+ANGPT4	angiopoietin 4	869899	916317	3
+SDCBP2	syndecan binding protein 2	1309909	1329239	4
+FKBP1A	FK506 binding protein 1A	1368978	1393172	4
+SIRPD	signal regulatory protein delta	1534251	1558843	5
+SIRPB1	signal regulatory protein beta 1	1563521	1620061	5
+SIRPG	signal regulatory protein gamma	1629152	1657779	5
+TGM6	transglutaminase 6	2380908	2432753	7
+EBF4	early B cell factor 4	2692878	2760108	8
+CPXM1	carboxypeptidase X, M14 family member 1	2794069	2800637	8
+C20orf141	chromosome 20 open reading frame 141	2814987	2815833	8
+TMEM239	transmembrane protein 239	2816302	2820284	8
+PCED1A	PC-esterase domain containing 1A	2835314	2841190	8
+VPS16	VPS16, CORVET/HOPS core subunit	2840703	2866732	8
+GNRH2	gonadotropin releasing hormone 2	3043622	3045747	9
+MRPS26	mitochondrial ribosomal protein S26	3045945	3048254	9
+OXT	oxytocin/neurophysin I prepropeptide	3071620	3072517	9
+AVP	arginine vasopressin	3082556	3084724	9
+UBOX5	U-box domain containing 5	3107573	3160196	9
+FASTKD5	FAST kinase domains 5	3146519	3159897	9
+LZTS3	leucine zipper tumor suppressor family member 3	3162617	3173592	9
+DDRGK1	DDRGK domain containing 1	3190350	3204685	9
+ITPA	inosine triphosphatase	3208868	3223870	9
+SLC4A11	solute carrier family 4 member 11	3227417	3239190	9
+PANK2	pantothenate kinase 2	3888839	3929882	10
+RNF24	ring finger protein 24	3927309	4015582	10
+SMOX	spermine oxidase	4120980	4187747	11
+ADRA1D	adrenoceptor alpha 1D	4220631	4249074	11
+PRNP	prion protein	4686236	4701590	12
+RASSF2	Ras association domain family member 2	4780023	4823645	13
+PCNA	proliferating cell nuclear antigen	5114953	5126626	14
+PROKR2	prokineticin receptor 2	5302040	5314369	15
+LAMP5	lysosomal associated membrane protein family member 5	9514358	9530524	19
+ANKEF1	ankyrin repeat and EF-hand domain containing 1	9986126	10058303	20
+SNAP25	synaptosome associated protein 25	10218830	10307418	20
+ISM1	isthmin 1	13221771	13300651	24
+SEL1L2	SEL1L2 ERAD E3 ligase adaptor subunit	13849247	13996443	25
+DSTN	destrin, actin depolymerizing factor	17569863	17609919	29
+RRBP1	ribosome binding protein 1	17613678	17682295	29
+BANF2	barrier to autointegration factor 2	17693672	17735871	29
+INSM1	INSM transcriptional repressor 1	20368121	20370949	33
+XRN2	5'-3' exoribonuclease 2	21303304	21389827	35
+NKX2-4	NK2 homeobox 4	21395367	21398028	35
+PAX1	paired box 1	21705659	21718486	36
+SSTR4	somatostatin receptor 4	23035386	23036812	38
+THBD	thrombomodulin	23045633	23049741	38
+CD93	CD93 molecule	23079349	23086340	38
+CSTL1	cystatin like 1	23439685	23444930	39
+CST11	cystatin 11	23450403	23452857	39
+CST8	cystatin 8	23491101	23496018	39
+CST9L	cystatin 9 like	23564732	23568749	39
+CST2	cystatin SA	23823769	23826731	40
+CST5	cystatin D	23875935	23879750	40
+DEFB116	defensin beta 116	31303212	31308585	46
+HM13	histocompatibility minor 13	31514428	31577923	47
+ID1	inhibitor of DNA binding 1, HLH protein	31605283	31606515	47
+COX4I2	cytochrome c oxidase subunit 4I2	31637888	31645006	47
+HCK	HCK proto-oncogene, Src family tyrosine kinase	32052188	32101856	48
+TM9SF4	transmembrane 9 superfamily member 4	32109506	32167258	48
+PLAGL2	PLAG1 like zinc finger 2	32192503	32207791	48
+POFUT1	protein O-fucosyltransferase 1	32207880	32238667	48
+SUN5	Sad1 and UNC84 domain containing 5	32983773	33004433	50
+BPIFB2	BPI fold containing family B member 2	33007600	33023709	50
+BPIFB6	BPI fold containing family B member 6	33031648	33044047	50
+BPIFB3	BPI fold containing family B member 3	33055424	33073628	50
+BPIFA2	BPI fold containing family A member 2	33161768	33181412	51
+BPIFA3	BPI fold containing family A member 3	33217310	33227758	51
+BPIFA1	BPI fold containing family A member 1	33235995	33243311	51
+BPIFB1	BPI fold containing family B member 1	33273480	33309878	51
+ZNF341	zinc finger protein 341	33731657	33792269	53
+CHMP4B	charged multivesicular body protein 4B	33811304	33854366	53
+EIF2S2	eukaryotic translation initiation factor 2 subunit beta	34088298	34112332	55
+ASIP	agouti signaling protein	34194569	34269344	55
+TP53INP2	tumor protein p53 inducible nuclear protein 2	34704290	34713439	56
+GGT7	gamma-glutamyltransferase 7	34844720	34872860	57
+ACSS2	acyl-CoA synthetase short chain family member 2	34872146	34927962	57
+GSS	glutathione synthetase	34928430	34955817	57
+MYH7B	myosin heavy chain 7B	34975403	35002437	57
+EIF6	eukaryotic translation initiation factor 6	35278907	35284985	58
+FAM83C	family with sequence similarity 83 member C	35285731	35292401	58
+UQCC1	ubiquinol-cytochrome c reductase complex assembly factor 1	35302566	35412141	58
+GDF5OS	growth differentiation factor 5 opposite strand	35433029	35435450	58
+GDF5	growth differentiation factor 5	35433347	35454746	58
+CEP250	centrosomal protein 250	35455164	35519280	58
+AAR2	AAR2 splicing factor homolog	36236459	36270918	60
+DLGAP4	DLG associated protein 4	36306336	36528637	60
+MYL9	myosin light chain 9	36541484	36551447	60
+TGIF2	TGFB induced factor homeobox 2	36573488	36593950	60
+RAB5IF	RAB5 interacting factor	36605734	36612557	60
+DSN1	DSN1 homolog, MIS12 kinetochore complex component	36751791	36773818	61
+ADIG	adipogenin	38581195	38588463	63
+ARHGAP40	Rho GTPase activating protein 40	38601934	38651035	63
+SLC32A1	solute carrier family 32 member 1	38724462	38729372	63
+ACTR5	ARP5 actin related protein 5 homolog	38748442	38772520	63
+PPP1R16B	protein phosphatase 1 regulatory subunit 16B	38805705	38923024	63
+FAM83D	family with sequence similarity 83 member D	38926312	38953106	63
+DHX35	DEAH-box helicase 35	38962299	39039723	63
+MAFB	MAF bZIP transcription factor B	40685848	40689240	66
+TOP1	DNA topoisomerase I	41028818	41124487	66
+PLCG1	phospholipase C gamma 1	41136960	41196801	66
+ZHX3	zinc fingers and homeoboxes 3	41178448	41317672	66
+LPIN3	lipin 3	41340920	41360582	66
+EMILIN3	elastin microfibril interfacer 3	41359966	41366827	66
+CHD6	chromodomain helicase DNA binding protein 6	41402101	41618494	66
+SRSF6	serine and arginine rich splicing factor 6	43457928	43464247	72
+GDAP1L1	ganglioside induced differentiation associated protein 1 like 1	44247099	44280917	74
+FITM2	fat storage inducing transmembrane protein 2	44302838	44311169	74
+R3HDML	R3H domain containing like	44336986	44351235	74
+TOMM34	translocase of outer mitochondrial membrane 34	44942130	44960486	75
+SEMG1	semenogelin 1	45206997	45209772	76
+SEMG2	semenogelin 2	45221300	45224458	76
+SLPI	secretory leukocyte peptidase inhibitor	45252239	45254564	76
+MATN4	matrilin 4	45293445	45308529	76
+RBPJL	recombination signal binding protein for immunoglobulin kappa J region like	45306851	45317824	76
+DBNDD2	dysbindin domain containing 2	45406057	45410610	77
+PIGT	phosphatidylinositol glycan anchor biosynthesis class T	45416067	45456934	77
+WFDC2	WAP four-disulfide core domain 2	45469706	45481532	77
+SPINT3	serine peptidase inhibitor, Kunitz type 3	45512461	45515624	77
+WFDC6	WAP four-disulfide core domain 6	45534196	45539495	77
+EPPIN	epididymal peptidase inhibitor	45540626	45547752	77
+WFDC8	WAP four-disulfide core domain 8	45551153	45579326	77
+WFDC9	WAP four-disulfide core domain 9	45607939	45631268	77
+WFDC10A	WAP four-disulfide core domain 10A	45629526	45631196	77
+CTSA	cathepsin A	45890144	45898820	78
+PLTP	phospholipid transfer protein	45898621	45912155	78
+PCIF1	PDX1 C-terminal inhibiting factor 1	45934628	45948023	78
+ZNF335	zinc finger protein 335	45948653	45972172	78
+MMP9	matrix metallopeptidase 9	46008908	46016561	78
+ZNF334	zinc finger protein 334	46499630	46513559	79
+OCSTAMP	osteoclast stimulatory transmembrane protein	46540946	46550574	79
+SLC13A3	solute carrier family 13 member 3	46557823	46684467	79
+TP53RK	TP53 regulating kinase	46684365	46689779	79
+SLC2A10	solute carrier family 2 member 10	46709487	46736347	79
+EYA2	EYA transcriptional coactivator and phosphatase 2	46894624	47188844	79
+ARFGEF2	ADP ribosylation factor guanine nucleotide exchange factor 2	48921890	49036693	86
+STAU1	staufen double-stranded RNA binding protein 1	49113339	49188367	87
+B4GALT5	beta-1,4-galactosyltransferase 5	49632945	49713878	88
+SLC9A8	solute carrier family 9 member A8	49812713	49892242	88
+SPATA2	spermatogenesis associated 2	49903391	49915508	88
+UBE2V1	ubiquitin conjugating enzyme E2 V1	50081124	50115959	89
+TMEM189	transmembrane protein 189	50118254	50153734	89
+CEBPB	CCAAT enhancer binding protein beta	50190734	50192689	89
+ZNF217	zinc finger protein 217	53567065	53609907	94
+BCAS1	breast carcinoma amplified sequence 1	53936777	54070594	94
+CYP24A1	cytochrome P450 family 24 subfamily A member 1	54153449	54173973	94
+PFDN4	prefoldin subunit 4	54207847	54228052	94
+DOK5	docking protein 5	54475597	54651171	94
+CBLN4	cerebellin 4 precursor	55997440	56005472	97
+MC3R	melanocortin 3 receptor	56248732	56249815	98
+FAM210B	family with sequence similarity 210 member B	56358915	56368663	98
+AURKA	aurora kinase A	56369389	56392337	98
+CSTF1	cleavage stimulation factor subunit 1	56392371	56406369	98
+CASS4	Cas scaffold protein family member 4	56412112	56460387	98
+RTF2	replication termination factor 2	56468585	56519449	98
+GCNT7	glucosaminyl (N-acetyl) transferase family member 7	56491492	56525925	98
+FAM209A	family with sequence similarity 209 member A	56517187	56526142	98
+FAM209B	family with sequence similarity 209 member B	56533246	56536520	98
+TFAP2C	transcription factor AP-2 gamma	56629302	56639283	98
+CTCFL	CCCTC-binding factor like	57495966	57525652	100
+ANKRD60	ankyrin repeat domain 60	58218495	58228653	102
+GNAS	GNAS complex locus	58839718	58911192	103
+NELFCD	negative elongation factor complex member C/D	58981208	58995133	103
+CTSZ	cathepsin Z	58995185	59007247	103
+TUBB1	tubulin beta 1 class VI	59019254	59026654	103
+ATP5F1E	ATP synthase F1 subunit epsilon	59025467	59032382	103
+PRELID3B	PRELI domain containing 3B	59033145	59042909	103
+ZNF831	zinc finger protein 831	59123381	59259113	103
+EDN3	endothelin 3	59300427	59325992	103
+PHACTR3	phosphatase and actin regulator 3	59577509	59847711	103
+SYCP2	synaptonemal complex protein 2	59863563	59933655	103
+FAM217B	family with sequence similarity 217 member B	59933764	59948680	103
+PPP1R3D	protein phosphatase 1 regulatory subunit 3D	59936668	59940297	103
+CDH26	cadherin 26	59958427	60034011	103
+RPS21	ribosomal protein S21	62387116	62388520	106
+CABLES2	Cdk5 and Abl enzyme substrate 2	62388632	62407285	106
+RBBP8NL	RBBP8 N-terminal like	62410237	62427533	106
+GATA5	GATA binding protein 5	62463497	62475970	106

@@ -1,0 +1,428 @@
+"symbol" "name" "start" "end" "TAD"
+"DEFB125" "defensin beta 125" 87250 97094 1
+"DEFB126" "defensin beta 126" 142369 145751 1
+"DEFB127" "defensin beta 127" 157470 159163 1
+"DEFB128" "defensin beta 128" 187853 189681 1
+"DEFB129" "defensin beta 129" 227258 229886 1
+"DEFB132" "defensin beta 132" 257736 261096 1
+"C20orf96" "chromosome 20 open reading frame 96" 270863 290778 1
+"ZCCHC3" "zinc finger CCHC-type containing 3" 296968 300321 1
+"SOX12" "SRY-box 12" 325595 330224 1
+"NRSN2" "neurensin 2" 346782 359660 1
+"TRIB3" "tribbles pseudokinase 3" 362835 397559 1
+"RBCK1" "RANBP2-type and C3HC4-type zinc finger containing 1" 407498 430966 1
+"TBC1D20" "TBC1 domain family member 20" 435480 462553 1
+"CSNK2A1" "casein kinase 2 alpha 1" 473591 543821 1
+"TCF15" "transcription factor 15" 603797 610398 1
+"SRXN1" "sulfiredoxin 1" 646615 653370 1
+"SCRT2" "scratch family transcriptional repressor 2" 661596 676179 1
+"SLC52A3" "solute carrier family 52 member 3" 760080 776015 1
+"FAM110A" "family with sequence similarity 110 member A" 833715 857463 1
+"ANGPT4" "angiopoietin 4" 869899 916317 1
+"RSPO4" "R-spondin 4" 958452 1002264 1
+"PSMF1" "proteasome inhibitor subunit 1" 1113263 1189415 1
+"TMEM74B" "transmembrane protein 74B" 1180561 1185415 1
+"C20orf202" "chromosome 20 open reading frame 202" 1203454 1208274 1
+"RAD21L1" "RAD21 cohesin complex component like 1" 1226056 1296421 1
+"SNPH" "syntaphilin" 1266316 1309328 1
+"SDCBP2" "syndecan binding protein 2" 1309909 1329239 1
+"FKBP1A" "FK506 binding protein 1A" 1368978 1393172 1
+"NSFL1C" "NSFL1 cofactor" 1442162 1473842 1
+"SIRPB2" "signal regulatory protein beta 2" 1470741 1491587 1
+"SIRPD" "signal regulatory protein delta" 1534251 1558843 1
+"SIRPB1" "signal regulatory protein beta 1" 1563521 1620061 1
+"SIRPG" "signal regulatory protein gamma" 1629152 1657779 1
+"SIRPA" "signal regulatory protein alpha" 1894167 1940592 1
+"PDYN" "prodynorphin" 1978757 1994285 1
+"STK35" "serine/threonine kinase 35" 2101611 2177038 1
+"TGM3" "transglutaminase 3" 2296001 2341078 1
+"TGM6" "transglutaminase 6" 2380908 2432753 1
+"SNRPB" "small nuclear ribonucleoprotein polypeptides B and B1" 2461634 2470853 1
+"ZNF343" "zinc finger protein 343" 2481817 2524702 1
+"TMC2" "transmembrane channel like 2" 2536607 2641784 1
+"NOP56" "NOP56 ribonucleoprotein" 2652145 2658393 1
+"IDH3B" "isocitrate dehydrogenase 3 (NAD(+)) beta" 2658395 2664219 1
+"EBF4" "early B cell factor 4" 2692878 2760108 1
+"CPXM1" "carboxypeptidase X, M14 family member 1" 2794069 2800637 1
+"C20orf141" "chromosome 20 open reading frame 141" 2814987 2815833 1
+"TMEM239" "transmembrane protein 239" 2816302 2820284 1
+"PCED1A" "PC-esterase domain containing 1A" 2835314 2841190 1
+"VPS16" "VPS16, CORVET/HOPS core subunit" 2840703 2866732 1
+"PTPRA" "protein tyrosine phosphatase, receptor type A" 2864184 3039076 1
+"GNRH2" "gonadotropin releasing hormone 2" 3043622 3045747 1
+"MRPS26" "mitochondrial ribosomal protein S26" 3045945 3048254 1
+"OXT" "oxytocin/neurophysin I prepropeptide" 3071620 3072517 1
+"AVP" "arginine vasopressin" 3082556 3084724 1
+"UBOX5" "U-box domain containing 5" 3107573 3160196 1
+"FASTKD5" "FAST kinase domains 5" 3146519 3159897 1
+"LZTS3" "leucine zipper tumor suppressor family member 3" 3162617 3173592 1
+"DDRGK1" "DDRGK domain containing 1" 3190350 3204685 1
+"ITPA" "inosine triphosphatase" 3208868 3223870 1
+"SLC4A11" "solute carrier family 4 member 11" 3227417 3239190 1
+"C20orf194" "chromosome 20 open reading frame 194" 3249305 3407625 1
+"ATRN" "attractin" 3471040 3651122 1
+"GFRA4" "GDNF family receptor alpha 4" 3659292 3663399 1
+"PANK2" "pantothenate kinase 2" 3888839 3929882 2
+"RNF24" "ring finger protein 24" 3927309 4015582 2
+"SMOX" "spermine oxidase" 4120980 4187747 2
+"ADRA1D" "adrenoceptor alpha 1D" 4220631 4249074 2
+"RASSF2" "Ras association domain family member 2" 4780023 4823645 3
+"SLC23A2" "solute carrier family 23 member 2" 4852356 5010293 3
+"TMEM230" "transmembrane protein 230" 5068232 5113103 3
+"PROKR2" "prokineticin receptor 2" 5302040 5314369 4
+"GPCPD1" "glycerophosphocholine phosphodiesterase 1" 5544404 5611026 5
+"C20orf196" "chromosome 20 open reading frame 196" 5750393 5863912 5
+"CHGB" "chromogranin B" 5911430 5925361 5
+"TRMT6" "tRNA methyltransferase 6" 5937235 5950558 5
+"MCM8" "minichromosome maintenance 8 homologous recombination repair factor" 5950652 5998977 5
+"CRLS1" "cardiolipin synthase 1" 6006090 6040053 5
+"LRRN4" "leucine rich repeat neuronal 4" 6040778 6054049 5
+"BMP2" "bone morphogenetic protein 2" 6767664 6780280 6
+"TMX4" "thioredoxin related transmembrane protein 4" 7977348 8019829 8
+"LAMP5" "lysosomal associated membrane protein family member 5" 9514358 9530524 10
+"PAK5" "p21 (RAC1) activated kinase 5" 9537389 9839041 10
+"ANKEF1" "ankyrin repeat and EF-hand domain containing 1" 9986126 10058303 10
+"SNAP25" "synaptosome associated protein 25" 10218830 10307418 10
+"MKKS" "McKusick-Kaufman syndrome" 10401009 10434222 10
+"JAG1" "jagged 1" 10637684 10674107 11
+"BTBD3" "BTB domain containing 3" 11890723 11926609 12
+"SPTLC3" "serine palmitoyltransferase long chain base subunit 3" 13008979 13169103 13
+"ISM1" "isthmin 1" 13221771 13300651 13
+"TASP1" "taspase 1" 13389392 13638940 13
+"ESF1" "ESF1 nucleolar pre-rRNA processing protein homolog" 13714322 13784886 13
+"SEL1L2" "SEL1L2 ERAD E3 ligase adaptor subunit" 13849247 13996443 14
+"FLRT3" "fibronectin leucine rich transmembrane protein 3" 14322988 14337616 14
+"KIF16B" "kinesin family member 16B" 16272104 16573434 15
+"SNRPB2" "small nuclear ribonucleoprotein polypeptide B2" 16729961 16742563 15
+"OTOR" "otoraplin" 16748358 16770062 15
+"BFSP1" "beaded filament structural protein 1" 17493905 17569220 17
+"DSTN" "destrin, actin depolymerizing factor" 17569863 17609919 17
+"RRBP1" "ribosome binding protein 1" 17613678 17682295 17
+"BANF2" "barrier to autointegration factor 2" 17693672 17735871 17
+"SNX5" "sorting nexin 5" 17941597 17968980 17
+"MGME1" "mitochondrial genome maintenance exonuclease 1" 17968913 17991122 17
+"DZANK1" "double zinc ribbon and ankyrin repeat domains 1" 18383367 18467281 18
+"POLR3F" "RNA polymerase III subunit F" 18467127 18484643 18
+"RBBP9" "RB binding protein 9, serine hydrolase" 18486540 18497243 18
+"SEC23B" "Sec23 homolog B, coat complex II component" 18507493 18561415 18
+"SMIM26" "small integral membrane protein 26" 18567347 18569563 18
+"DTD1" "D-tyrosyl-tRNA deacylase 1" 18567453 18763917 18
+"SCP2D1" "SCP2 sterol binding domain containing 1" 18813726 18814392 18
+"SLC24A3" "solute carrier family 24 member 3" 19212646 19722937 18
+"CFAP61" "cilia and flagella associated protein 61" 20052514 20360702 19
+"INSM1" "INSM transcriptional repressor 1" 20368121 20370949 19
+"KIZ" "kizuna centrosomal protein" 21125983 21246622 20
+"XRN2" "5'-3' exoribonuclease 2" 21303304 21389827 20
+"NKX2-4" "NK2 homeobox 4" 21395367 21398028 20
+"NKX2-2" "NK2 homeobox 2" 21511010 21514026 20
+"FOXA2" "forkhead box A2" 22581005 22585455 22
+"SSTR4" "somatostatin receptor 4" 23035386 23036812 22
+"THBD" "thrombomodulin" 23045633 23049741 22
+"CD93" "CD93 molecule" 23079349 23086340 22
+"NXT1" "nuclear transport factor 2 like export factor 1" 23350736 23354777 22
+"CSTL1" "cystatin like 1" 23439685 23444930 23
+"CST11" "cystatin 11" 23450403 23452857 23
+"CST8" "cystatin 8" 23491101 23496018 23
+"CST9L" "cystatin 9 like" 23564732 23568749 23
+"CST9" "cystatin 9" 23602410 23605876 23
+"CST3" "cystatin C" 23626706 23638473 23
+"CST4" "cystatin S" 23685640 23689040 24
+"CST1" "cystatin SN" 23747553 23751268 24
+"CST2" "cystatin SA" 23823769 23826731 24
+"CST5" "cystatin D" 23875935 23879750 24
+"GGTLC1" "gamma-glutamyltransferase light chain 1" 23985050 23988779 24
+"SYNDIG1" "synapse differentiation inducing 1" 24469199 24666616 24
+"CST7" "cystatin F" 24949230 24959928 24
+"APMAP" "adipocyte plasma membrane associated protein" 24962925 24992979 24
+"ACSS1" "acyl-CoA synthetase short chain family member 1" 25006230 25058980 24
+"VSX1" "visual system homeobox 1" 25070885 25082365 24
+"ENTPD6" "ectonucleoside triphosphate diphosphohydrolase 6 (putative)" 25195693 25226729 24
+"PYGB" "glycogen phosphorylase B" 25248069 25298014 24
+"ABHD12" "abhydrolase domain containing 12" 25294743 25390983 24
+"GINS1" "GINS complex subunit 1" 25407727 25452628 24
+"NINL" "ninein like" 25452705 25585517 24
+"NANP" "N-acetylneuraminic acid phosphatase" 25612935 25624175 24
+"ZNF337" "zinc finger protein 337" 25674215 25696841 24
+"DEFB115" "defensin beta 115" 31257664 31259632 26
+"DEFB116" "defensin beta 116" 31303212 31308585 26
+"DEFB118" "defensin beta 118" 31368618 31373923 26
+"DEFB119" "defensin beta 119" 31377164 31390603 26
+"DEFB121" "defensin beta 121" 31404845 31412838 26
+"DEFB123" "defensin beta 123" 31440519 31450257 26
+"DEFB124" "defensin beta 124" 31465506 31476757 26
+"REM1" "RRAD and GEM like GTPase 1" 31475293 31484905 26
+"HM13" "histocompatibility minor 13" 31514428 31577923 26
+"ID1" "inhibitor of DNA binding 1, HLH protein" 31605283 31606515 26
+"COX4I2" "cytochrome c oxidase subunit 4I2" 31637888 31645006 26
+"BCL2L1" "BCL2 like 1" 31664452 31723989 26
+"TPX2" "TPX2, microtubule nucleation factor" 31739271 31801805 26
+"MYLK2" "myosin light chain kinase 2" 31819308 31834689 26
+"FOXS1" "forkhead box S1" 31844301 31845619 26
+"DUSP15" "dual specificity phosphatase 15" 31847637 31870747 26
+"PDRG1" "p53 and DNA damage regulated 1" 31944342 31952092 26
+"XKR7" "XK related 7" 31968002 32003387 26
+"CCM2L" "CCM2 like scaffold protein" 32010450 32032180 26
+"HCK" "HCK proto-oncogene, Src family tyrosine kinase" 32052188 32101856 26
+"TM9SF4" "transmembrane 9 superfamily member 4" 32109506 32167258 26
+"PLAGL2" "PLAG1 like zinc finger 2" 32192503 32207791 26
+"POFUT1" "protein O-fucosyltransferase 1" 32207880 32238667 26
+"KIF3B" "kinesin family member 3B" 32277664 32335011 26
+"ASXL1" "additional sex combs like 1, transcriptional regulator" 32358344 32439319 26
+"NOL4L" "nucleolar protein 4 like" 32443059 32585074 26
+"C20orf203" "chromosome 20 open reading frame 203" 32631652 32673941 26
+"COMMD7" "COMM domain containing 7" 32702691 32743997 26
+"DNMT3B" "DNA methyltransferase 3 beta" 32762385 32809356 26
+"MAPRE1" "microtubule associated protein RP/EB family member 1" 32819893 32850405 26
+"EFCAB8" "EF-hand calcium binding domain 8" 32858923 32961609 26
+"SUN5" "Sad1 and UNC84 domain containing 5" 32983773 33004433 26
+"BPIFB2" "BPI fold containing family B member 2" 33007600 33023709 26
+"BPIFB6" "BPI fold containing family B member 6" 33031648 33044047 26
+"BPIFB3" "BPI fold containing family B member 3" 33055424 33073628 26
+"BPIFB4" "BPI fold containing family B member 4" 33079644 33111751 26
+"BPIFA2" "BPI fold containing family A member 2" 33161768 33181412 26
+"BPIFA3" "BPI fold containing family A member 3" 33217310 33227758 26
+"BPIFA1" "BPI fold containing family A member 1" 33235995 33243311 26
+"BPIFB1" "BPI fold containing family B member 1" 33273480 33309878 26
+"CDK5RAP1" "CDK5 regulatory subunit associated protein 1" 33358839 33401561 26
+"SNTA1" "syntrophin alpha 1" 33407955 33443892 26
+"CBFA2T2" "CBFA2/RUNX1 translocation partner 2" 33490075 33650036 26
+"NECAB3" "N-terminal EF-hand calcium binding protein 3" 33657087 33674463 26
+"C20orf144" "chromosome 20 open reading frame 144" 33662284 33665619 26
+"ACTL10" "actin like 10" 33666498 33668525 26
+"E2F1" "E2F transcription factor 1" 33675683 33686404 26
+"PXMP4" "peroxisomal membrane protein 4" 33702754 33720319 26
+"ZNF341" "zinc finger protein 341" 33731657 33792269 26
+"CHMP4B" "charged multivesicular body protein 4B" 33811304 33854366 26
+"RALY" "RALY heterogeneous nuclear ribonucleoprotein" 33993646 34108308 26
+"EIF2S2" "eukaryotic translation initiation factor 2 subunit beta" 34088298 34112332 26
+"ASIP" "agouti signaling protein" 34194569 34269344 27
+"AHCY" "adenosylhomocysteinase" 34280268 34311802 27
+"ITCH" "itchy E3 ubiquitin protein ligase" 34363235 34511393 27
+"DYNLRB1" "dynein light chain roadblock-type 1" 34516409 34540958 27
+"MAP1LC3A" "microtubule associated protein 1 light chain 3 alpha" 34546854 34560345 27
+"PIGU" "phosphatidylinositol glycan anchor biosynthesis class U" 34560542 34698790 27
+"TP53INP2" "tumor protein p53 inducible nuclear protein 2" 34704290 34713439 27
+"GGT7" "gamma-glutamyltransferase 7" 34844720 34872860 28
+"ACSS2" "acyl-CoA synthetase short chain family member 2" 34872146 34927962 28
+"GSS" "glutathione synthetase" 34928430 34955817 28
+"MYH7B" "myosin heavy chain 7B" 34975403 35002437 28
+"TRPC4AP" "transient receptor potential cation channel subfamily C member 4 associated protein" 35002404 35092871 28
+"EDEM2" "ER degradation enhancing alpha-mannosidase like protein 2" 35115357 35147364 28
+"PROCR" "protein C receptor" 35172073 35216240 28
+"MMP24OS" "MMP24 opposite strand" 35201745 35278131 28
+"MMP24" "matrix metallopeptidase 24" 35226654 35277000 28
+"EIF6" "eukaryotic translation initiation factor 6" 35278907 35284985 28
+"FAM83C" "family with sequence similarity 83 member C" 35285731 35292401 28
+"UQCC1" "ubiquinol-cytochrome c reductase complex assembly factor 1" 35302566 35412141 28
+"GDF5OS" "growth differentiation factor 5 opposite strand" 35433029 35435450 28
+"SPAG4" "sperm associated antigen 4" 35615892 35621049 29
+"CPNE1" "copine 1" 35626031 35664956 29
+"RBM12" "RNA binding motif protein 12" 35648925 35664956 29
+"NFS1" "NFS1, cysteine desulfurase" 35668055 35699359 29
+"ROMO1" "reactive oxygen species modulator 1" 35699272 35700984 29
+"RBM39" "RNA binding motif protein 39" 35701347 35742312 29
+"PHF20" "PHD finger protein 20" 35771974 35950381 29
+"SCAND1" "SCAN domain containing 1" 35953617 35959472 29
+"CNBD2" "cyclic nucleotide binding domain containing 2" 35954564 36030700 29
+"EPB41L1" "erythrocyte membrane protein band 4.1 like 1" 36091504 36232799 29
+"AAR2" "AAR2 splicing factor homolog" 36236459 36270918 29
+"MYL9" "myosin light chain 9" 36541484 36551447 30
+"TGIF2" "TGFB induced factor homeobox 2" 36573488 36593950 30
+"RAB5IF" "RAB5 interacting factor" 36605734 36612557 30
+"SLA2" "Src like adaptor 2" 36612318 36646216 30
+"NDRG3" "NDRG family member 3" 36651766 36746078 30
+"DSN1" "DSN1 homolog, MIS12 kinetochore complex component" 36751791 36773818 30
+"SOGA1" "suppressor of glucose, autophagy associated 1" 36777442 36863686 30
+"TLDC2" "TBC/LysM-associated domain containing 2" 36876121 36894235 30
+"MROH8" "maestro heat like repeat family member 8" 37101226 37179588 31
+"RPN2" "ribophorin II" 37178410 37241623 31
+"GHRH" "growth hormone releasing hormone" 37251082 37261835 31
+"MANBAL" "mannosidase beta like" 37289638 37317260 31
+"SRC" "SRC proto-oncogene, non-receptor tyrosine kinase" 37344685 37406050 31
+"BLCAP" "bladder cancer associated protein" 37492472 37527931 31
+"NNAT" "neuronatin" 37521215 37523693 31
+"CTNNBL1" "catenin beta like 1" 37693955 37872129 31
+"VSTM2L" "V-set and transmembrane domain containing 2 like" 37903104 37945350 31
+"TTI1" "TELO2 interacting protein 1" 37983007 38033468 31
+"RPRD1B" "regulation of nuclear pre-mRNA domain containing 1B" 38033546 38127780 31
+"TGM2" "transglutaminase 2" 38127387 38166578 31
+"KIAA1755" "KIAA1755" 38210488 38260772 31
+"RALGAPB" "Ral GTPase activating protein non-catalytic beta subunit" 38472816 38578861 32
+"ADIG" "adipogenin" 38581195 38588463 32
+"ARHGAP40" "Rho GTPase activating protein 40" 38601934 38651035 32
+"SLC32A1" "solute carrier family 32 member 1" 38724462 38729372 32
+"ACTR5" "ARP5 actin related protein 5 homolog" 38748442 38772520 32
+"PPP1R16B" "protein phosphatase 1 regulatory subunit 16B" 38805705 38923024 32
+"FAM83D" "family with sequence similarity 83 member D" 38926312 38953106 32
+"DHX35" "DEAH-box helicase 35" 38962299 39039723 32
+"MAFB" "MAF bZIP transcription factor B" 40685848 40689240 32
+"TOP1" "DNA topoisomerase I" 41028818 41124487 32
+"PLCG1" "phospholipase C gamma 1" 41136960 41196801 32
+"ZHX3" "zinc fingers and homeoboxes 3" 41178448 41317672 32
+"CHD6" "chromodomain helicase DNA binding protein 6" 41402101 41618494 33
+"PTPRT" "protein tyrosine phosphatase, receptor type T" 42072752 43189970 34
+"SGK2" "SGK2, serine/threonine kinase 2" 43558968 43588237 35
+"IFT52" "intraflagellar transport 52" 43590931 43647296 35
+"MYBL2" "MYB proto-oncogene like 2" 43667019 43716496 35
+"GTSF1L" "gametocyte specific factor 1 like" 43726164 43726998 35
+"TOX2" "TOX high mobility group box family member 2" 43914864 44069616 35
+"KCNK15" "potassium two pore domain channel subfamily K member 15" 44745780 44752313 36
+"RIMS4" "regulating synaptic membrane exocytosis 4" 44751808 44810338 36
+"YWHAB" "tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein beta" 44885676 44908532 36
+"PABPC1L" "poly(A) binding protein cytoplasmic 1 like" 44910062 44959035 36
+"TOMM34" "translocase of outer mitochondrial membrane 34" 44942130 44960486 36
+"STK4" "serine/threonine kinase 4" 44966474 45079959 36
+"KCNS1" "potassium voltage-gated channel modifier subfamily S member 1" 45092310 45101112 36
+"WFDC5" "WAP four-disulfide core domain 5" 45109452 45115172 36
+"WFDC12" "WAP four-disulfide core domain 12" 45123425 45124465 36
+"PI3" "peptidase inhibitor 3" 45174876 45176544 36
+"SEMG1" "semenogelin 1" 45206997 45209772 36
+"SEMG2" "semenogelin 2" 45221300 45224458 36
+"SLPI" "secretory leukocyte peptidase inhibitor" 45252239 45254564 36
+"MATN4" "matrilin 4" 45293445 45308529 36
+"RBPJL" "recombination signal binding protein for immunoglobulin kappa J region like" 45306851 45317824 36
+"SDC4" "syndecan 4" 45325288 45348424 36
+"SYS1" "SYS1, golgi trafficking protein" 45361937 45376798 36
+"TP53TG5" "TP53 target 5" 45372563 45407889 36
+"DBNDD2" "dysbindin domain containing 2" 45406057 45410610 36
+"PIGT" "phosphatidylinositol glycan anchor biosynthesis class T" 45416067 45456934 36
+"WFDC2" "WAP four-disulfide core domain 2" 45469706 45481532 36
+"SPINT3" "serine peptidase inhibitor, Kunitz type 3" 45512461 45515624 36
+"WFDC6" "WAP four-disulfide core domain 6" 45534196 45539495 36
+"EPPIN" "epididymal peptidase inhibitor" 45540626 45547752 36
+"WFDC8" "WAP four-disulfide core domain 8" 45551153 45579326 36
+"WFDC9" "WAP four-disulfide core domain 9" 45607939 45631268 36
+"WFDC10A" "WAP four-disulfide core domain 10A" 45629526 45631196 36
+"WFDC11" "WAP four-disulfide core domain 11" 45648563 45670270 36
+"WFDC10B" "WAP four-disulfide core domain 10B" 45684653 45705019 36
+"WFDC13" "WAP four-disulfide core domain 13" 45702016 45708817 36
+"SPINT4" "serine peptidase inhibitor, Kunitz type 4" 45722351 45725830 36
+"WFDC3" "WAP four-disulfide core domain 3" 45747944 45791932 36
+"DNTTIP1" "deoxynucleotidyltransferase terminal interacting protein 1" 45791937 45811427 36
+"UBE2C" "ubiquitin conjugating enzyme E2 C" 45812576 45816957 36
+"TNNC2" "troponin C2, fast skeletal type" 45823214 45833745 36
+"SNX21" "sorting nexin family member 21" 45833810 45843275 36
+"ACOT8" "acyl-CoA thioesterase 8" 45841721 45857406 36
+"ZSWIM3" "zinc finger SWIM-type containing 3" 45857617 45879122 36
+"ZSWIM1" "zinc finger SWIM-type containing 1" 45881227 45885266 36
+"SPATA25" "spermatogenesis associated 25" 45886489 45887635 36
+"NEURL2" "neuralized E3 ubiquitin protein ligase 2" 45888625 45891287 36
+"CTSA" "cathepsin A" 45890144 45898820 36
+"PLTP" "phospholipid transfer protein" 45898621 45912155 36
+"PCIF1" "PDX1 C-terminal inhibiting factor 1" 45934628 45948023 36
+"MMP9" "matrix metallopeptidase 9" 46008908 46016561 37
+"SLC12A5" "solute carrier family 12 member 5" 46021690 46060152 37
+"NCOA5" "nuclear receptor coactivator 5" 46060985 46089952 37
+"CD40" "CD40 molecule" 46118272 46129863 37
+"CDH22" "cadherin 22" 46173733 46308498 37
+"ZNF334" "zinc finger protein 334" 46499630 46513559 38
+"OCSTAMP" "osteoclast stimulatory transmembrane protein" 46540946 46550574 38
+"SLC13A3" "solute carrier family 13 member 3" 46557823 46684467 38
+"TP53RK" "TP53 regulating kinase" 46684365 46689779 38
+"ZMYND8" "zinc finger MYND-type containing 8" 47209214 47356889 40
+"SULF2" "sulfatase 2" 47656348 47786616 41
+"CSE1L" "chromosome segregation 1 like" 49046246 49096960 43
+"STAU1" "staufen double-stranded RNA binding protein 1" 49113339 49188367 43
+"DDX27" "DEAD-box helicase 27" 49219295 49244077 43
+"ZNFX1" "zinc finger NFX1-type containing 1" 49237946 49278426 43
+"PTGIS" "prostaglandin I2 synthase" 49503874 49568146 44
+"B4GALT5" "beta-1,4-galactosyltransferase 5" 49632945 49713878 44
+"SLC9A8" "solute carrier family 9 member A8" 49812713 49892242 44
+"SPATA2" "spermatogenesis associated 2" 49903391 49915508 44
+"RNF114" "ring finger protein 114" 49936336 49953892 44
+"CEBPB" "CCAAT enhancer binding protein beta" 50190734 50192689 45
+"PTPN1" "protein tyrosine phosphatase, non-receptor type 1" 50510321 50585241 45
+"PARD6B" "par-6 family cell polarity regulator beta" 50731544 50756795 46
+"BCAS4" "breast carcinoma amplified sequence 4" 50794894 50882676 46
+"ADNP" "activity dependent neuroprotector homeobox" 50888919 50931240 46
+"DPM1" "dolichyl-phosphate mannosyltransferase subunit 1, catalytic" 50934867 50958555 46
+"MOCS3" "molybdenum cofactor synthesis 3" 50958826 50963931 46
+"KCNG1" "potassium voltage-gated channel modifier subfamily G member 1" 51003656 51023129 46
+"NFATC2" "nuclear factor of activated T cells 2" 51386957 51562831 47
+"SALL4" "spalt like transcription factor 4" 51782331 51802520 48
+"TSHZ2" "teashirt zinc finger homeobox 2" 52972407 53495330 49
+"ZNF217" "zinc finger protein 217" 53567065 53609907 50
+"BCAS1" "breast carcinoma amplified sequence 1" 53936777 54070594 50
+"CYP24A1" "cytochrome P450 family 24 subfamily A member 1" 54153449 54173973 51
+"PFDN4" "prefoldin subunit 4" 54207847 54228052 51
+"CBLN4" "cerebellin 4 precursor" 55997440 56005472 52
+"MC3R" "melanocortin 3 receptor" 56248732 56249815 52
+"FAM209B" "family with sequence similarity 209 member B" 56533246 56536520 53
+"TFAP2C" "transcription factor AP-2 gamma" 56629302 56639283 53
+"BMP7" "bone morphogenetic protein 7" 57168748 57266629 54
+"SPO11" "SPO11, initiator of meiotic double stranded breaks" 57329759 57343994 54
+"MTRNR2L3" "MT-RNR2 like 3" 57358442 57359980 54
+"CTCFL" "CCCTC-binding factor like" 57495966 57525652 55
+"PCK1" "phosphoenolpyruvate carboxykinase 1" 57561080 57568112 55
+"ZBP1" "Z-DNA binding protein 1" 57603846 57620576 55
+"PMEPA1" "prostate transmembrane protein, androgen induced 1" 57648392 57711536 55
+"C20orf85" "chromosome 20 open reading frame 85" 58150904 58161150 55
+"ANKRD60" "ankyrin repeat domain 60" 58218495 58228653 56
+"RAB22A" "RAB22A, member RAS oncogene family" 58309696 58367507 56
+"VAPB" "VAMP associated protein B and C" 58389122 58451101 56
+"APCDD1L" "APC down-regulated 1 like" 58459101 58515131 56
+"STX16" "syntaxin 16" 58651253 58679526 56
+"NPEPL1" "aminopeptidase like 1" 58689131 58719238 56
+"NELFCD" "negative elongation factor complex member C/D" 58981208 58995133 57
+"CTSZ" "cathepsin Z" 58995185 59007247 57
+"TUBB1" "tubulin beta 1 class VI" 59019254 59026654 57
+"ATP5F1E" "ATP synthase F1 subunit epsilon" 59025467 59032382 57
+"PRELID3B" "PRELI domain containing 3B" 59033145 59042909 57
+"ZNF831" "zinc finger protein 831" 59123381 59259113 57
+"EDN3" "endothelin 3" 59300427 59325992 57
+"PHACTR3" "phosphatase and actin regulator 3" 59577509 59847711 58
+"SYCP2" "synaptonemal complex protein 2" 59863563 59933655 58
+"FAM217B" "family with sequence similarity 217 member B" 59933764 59948680 58
+"PPP1R3D" "protein phosphatase 1 regulatory subunit 3D" 59936668 59940297 58
+"CDH26" "cadherin 26" 59958427 60034011 58
+"CDH4" "cadherin 4" 61252426 61940617 58
+"RBBP8NL" "RBBP8 N-terminal like" 62410237 62427533 59
+"GATA5" "GATA binding protein 5" 62463497 62475970 59
+"SLCO4A1" "solute carrier organic anion transporter family member 4A1" 62642445 62685785 59
+"NTSR1" "neurotensin receptor 1" 62708837 62762771 59
+"MRGBP" "MRG domain binding protein" 62796453 62801738 59
+"OGFR" "opioid growth factor receptor" 62804835 62814000 59
+"COL9A3" "collagen type IX alpha 3 chain" 62816244 62841159 59
+"TCFL5" "transcription factor like 5" 62841115 62861763 59
+"DIDO1" "death inducer-obliterator 1" 62877738 62937952 59
+"GID8" "GID complex subunit 8 homolog" 62938119 62948475 59
+"SLC17A9" "solute carrier family 17 member 9" 62952647 62969585 59
+"BHLHE23" "basic helix-loop-helix family member e23" 63005927 63007035 59
+"YTHDF1" "YTH N6-methyladenosine RNA binding protein 1" 63195429 63216234 59
+"BIRC7" "baculoviral IAP repeat containing 7" 63235883 63240507 59
+"NKAIN4" "sodium/potassium transporting ATPase interacting 4" 63240784 63272694 59
+"ARFGAP1" "ADP ribosylation factor GTPase activating protein 1" 63272785 63289793 59
+"COL20A1" "collagen type XX alpha 1 chain" 63293186 63334851 59
+"CHRNA4" "cholinergic receptor nicotinic alpha 4 subunit" 63343223 63378401 59
+"KCNQ2" "potassium voltage-gated channel subfamily Q member 2" 63400210 63472677 59
+"EEF1A2" "eukaryotic translation elongation factor 1 alpha 2" 63488013 63499315 59
+"PPDPF" "pancreatic progenitor cell differentiation and proliferation factor" 63520724 63522206 59
+"PTK6" "protein tyrosine kinase 6" 63528001 63537370 59
+"SRMS" "src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites" 63540810 63547504 59
+"FNDC11" "fibronectin type III domain containing 11" 63547891 63556708 59
+"HELZ2" "helicase with zinc finger 2" 63558086 63574239 59
+"GMEB2" "glucocorticoid modulatory element binding protein 2" 63587602 63627041 59
+"STMN3" "stathmin 3" 63639705 63657682 59
+"RTEL1" "regulator of telomere elongation helicase 1" 63657810 63696253 59
+"TNFRSF6B" "TNF receptor superfamily member 6b" 63696668 63698684 59
+"ARFRP1" "ADP ribosylation factor related protein 1" 63698642 63708025 59
+"ZGPAT" "zinc finger CCCH-type and G-patch domain containing" 63707465 63736142 59
+"LIME1" "Lck interacting transmembrane adaptor 1" 63736283 63739103 59
+"SLC2A4RG" "SLC2A4 regulator" 63739861 63743505 59
+"ZBTB46" "zinc finger and BTB domain containing 46" 63743666 63831244 59
+"ABHD16B" "abhydrolase domain containing 16B" 63861498 63862988 59
+"TPD52L2" "tumor protein D52 like 2" 63865228 63891545 59
+"DNAJC5" "DnaJ heat shock protein family (Hsp40) member C5" 63895182 63936031 59
+"UCKL1" "uridine-cytidine kinase 1 like 1" 63939829 63956415 59
+"ZNF512B" "zinc finger protein 512B" 63956702 63969865 59
+"SAMD10" "sterile alpha motif domain containing 10" 63974113 63980008 59
+"PRPF6" "pre-mRNA processing factor 6" 63981135 64033100 59
+"C20orf204" "chromosome 20 open reading frame 204" 64034344 64039962 59
+"SOX18" "SRY-box 18" 64047582 64049641 59
+"TCEA2" "transcription elongation factor A2" 64049836 64072347 59
+"RGS19" "regulator of G protein signaling 19" 64073181 64079988 59
+"OPRL1" "opioid related nociceptin receptor 1" 64080173 64100643 59
+"LKAAEAR1" "LKAAEAR motif containing 1" 64083380 64084359 59
+"NPBWR2" "neuropeptides B and W receptor 2" 64105820 64107171 59
+"MYT1" "myelin transcription factor 1" 64151791 64242253 59
+"PCMTD2" "protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 2" 64255695 64287821 59

@@ -1,0 +1,7 @@
+msig DB at the broad database
+has categorical definitions that are associated with gene sets
+probably can query with gene set s to find out what it's strongly assoc with
+Gene set enrichment analysis
+
+david
+tells you the enrichment in functional categories in a group
