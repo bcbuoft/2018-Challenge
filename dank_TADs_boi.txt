@@ -1,4 +1,4 @@
-"name" "start" "end" "TAD"
+"symbol" "name" "start" "end" "TAD"
 "DEFB125" "defensin beta 125" 87250 97094 1
 "DEFB126" "defensin beta 126" 142369 145751 1
 "DEFB127" "defensin beta 127" 157470 159163 1
