@@ -9,6 +9,7 @@ RADIUS = 150            #size of circos plot
 SUBCENTER = (500, 205)
 SUBRADIUS = 150
 START = (0, RADIUS)     #for calculating gene arcs
+SUBSTART = (0, SUBRADIUS)
 CHROMLEN = 64444167     #nts on chromosome 20
 
 #gene location and GOA based print - circos
@@ -74,7 +75,7 @@ def circoGeneDraw(chDF, genesDF, fName):
     #draw arcs for each tad
     tadArcs = dwg.add(dwg.g(id="tadArcs", fill="white", stroke_width=5))
     tadArcs.add(
-        dwg.animateTransform("rotate", "transform", id="arcs", from_=from_, to=to_, dur="360s",
+        dwg.animateTransform("rotate", "transform", id="arcs", from_=from_, to=to_, dur="36s",
                              begin="0s", repeatCount="indefinite"))
     for g in chDF.index:
         gStart = "M" + str(chDF.loc[g].arcStartX) + "," + str(chDF.loc[g].arcStartY)
@@ -82,8 +83,12 @@ def circoGeneDraw(chDF, genesDF, fName):
         gEnd = str(chDF.loc[g].arcEndX) + "," + str(chDF.loc[g].arcEndY)
         tadArcs.add(dwg.path(d=gStart + gArc + " 0 0,1 " + gEnd, stroke=chDF.loc[g].colour))
 
-        start_angle = abs(chDF.loc[g].start/CHROMLEN * 360 - 180)
-        end_angle = abs(chDF.loc[g].end/CHROMLEN * 360 - 180)
+        end_angle = abs(chDF.loc[g].start/CHROMLEN * 36 - 18)
+        start_angle = abs(chDF.loc[g].end/CHROMLEN * 36 - 18)
+        if end_angle < 0:
+            end_angle += 36
+        if start_angle < 0:
+            start_angle += 36
         # start_angle = min(angle_one, angle_two)
         # end_angle = max(angle_one, angle_two)
         start_time = str(start_angle) + "s"
@@ -93,7 +98,7 @@ def circoGeneDraw(chDF, genesDF, fName):
         rectangle = dwg.add(dwg.polygon(path, id='polygon', opacity="0", stroke="black", fill=chDF.loc[g].colour))
         rectangle.add(
             dwg.animate(attributeName="opacity", id="fills", from_="1", to="0", begin=start_time, end=end_time,
-                        dur="360s", repeatCount="indefinite"))
+                        dur="36s", repeatCount="indefinite"))
 
 
         # sub_circle = \
